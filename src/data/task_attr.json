@@ -1,0 +1,58 @@
+{
+  "name":{
+    "required":true,
+    "type":"string"
+  },
+  "father":{
+    "required":false,
+    "type":"number",
+    "default":0
+  },
+  "agvid":{
+    "required":true,
+    "type":"number"
+  },
+  "type":{
+    "required":true,
+    "type":"enum",
+    "value":["REPOSITION","DELIVER", "RECEIVE", "DUAL_CYCLE", "RECHARGE", "MAINTENANCE", "X-RAY", "NEAREST_PARKING"]
+  },
+  "wq":{
+    "required":true,
+    "type":"string"
+  },
+  "destination":{
+    "required":true,
+    "type":"string"
+  },
+  "container1":{
+    "required":false,
+    "type":"container"
+  },
+  "container2":{
+    "required":false,
+    "type":"container"
+  },
+  "door1":{
+    "required":false,
+    "type":"enum",
+    "value":["UNKNOWN", "LOWBOLLARD", "HIGHBOLLARD"],
+    "default":"UNKNOWN"
+  },
+  "door2":{
+    "required":false,
+    "type":"enum",
+    "value":["UNKNOWN", "LOWBOLLARD", "HIGHBOLLARD"],
+    "default":"UNKNOWN"
+  },
+  "bypass":{
+    "required":false,
+    "type":"enum",
+    "value": ["yes", "no"]
+  },
+  "wiref":{
+    "required":false,
+    "type":"string",
+    "default":""
+  }
+}

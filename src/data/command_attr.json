@@ -1,0 +1,10 @@
+{
+  "lift":{
+    "require": false,
+    "type":"lift"
+  },
+  "straight":{
+    "require": false,
+    "type":"straight"
+  }
+}

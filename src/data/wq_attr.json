@@ -1,0 +1,23 @@
+{
+  "id":{
+    "required":true,
+    "type":"number"
+  },
+  "kind":{
+    "required":true,
+    "type":"string"
+  },
+  "qcid":{
+    "required":true,
+    "type":"number"
+  },
+  "bay":{
+    "required":true,
+    "type":"number"
+  },
+  "cascade":{
+    "required":false,
+    "type":"boolean",
+    "default":true
+  }
+}

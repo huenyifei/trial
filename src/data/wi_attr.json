@@ -1,0 +1,31 @@
+{
+  "name":{
+    "required":true,
+    "type":"string"
+  },
+  "size":{
+    "required":true,
+    "type":"array"
+  },
+  "direction":{
+    "required":true,
+    "type":"array"
+  },
+  "wq":{
+    "required":true,
+    "type":"number"
+  },
+  "tank":{
+    "required":false,
+    "type":"boolean"
+  },
+  "twin":{
+    "required":false,
+    "type":"boolean"
+  },
+  "cascade":{
+    "required":false,
+    "type":"boolean",
+    "default":true
+  }
+}

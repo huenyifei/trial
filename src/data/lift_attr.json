@@ -1,0 +1,12 @@
+{
+  "type":{
+    "required":true,
+    "type":"enum",
+    "value":["deliver", "reciver"]
+  },
+  "pos":{
+    "required":true,
+    "type":"enum",
+    "value":["head", "tail"]
+  }
+}

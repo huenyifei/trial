@@ -1,0 +1,40 @@
+{
+  "name": "Webpack-Vue",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "webpack-dev-server --open --hot",
+    "build": "webpack --progress --hide-modules"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "jsoneditor": "^5.26.3",
+    "vue": "^2.5.21"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-loader": "^7.1.5",
+    "babel-polyfill": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-stage-3": "^6.24.1",
+    "clipboard": "^2.0.4",
+    "css-loader": "^2.0.0",
+    "iview": "^3.2.0",
+    "less": "^3.9.0",
+    "less-loader": "^4.1.0",
+    "node-sass": "^4.11.0",
+    "sass-loader": "^7.1.0",
+    "tree-table-vue": "^1.1.0",
+    "url-loader": "^1.1.2",
+    "vue-loader": "^15.4.2",
+    "vue-style-loader": "^4.1.2",
+    "vue-template-compiler": "^2.5.21",
+    "webpack": "^3.12.0",
+    "webpack-cli": "^3.1.2",
+    "webpack-dev-server": "^2.11.3"
+  }
+}

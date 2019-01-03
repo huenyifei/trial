@@ -1,0 +1,6 @@
+{
+  "speed":{
+    "required":true,
+    "type":"number"
+  }
+}
